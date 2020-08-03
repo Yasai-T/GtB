@@ -20,6 +20,9 @@ const IndexPage = () => (
       <li>
         <Link to="/threejs/">Go to page threeJs practice</Link>
       </li>
+      <li>
+        <Link to="/pdf/">Go to page pdf practice</Link>
+      </li>
     </ul>
   </Layout>
 )

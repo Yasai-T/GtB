@@ -20,7 +20,8 @@
     "react-helmet": "5.2.1",
     "react-three-fiber": "4.1.1",
     "styled-components": "5.0.1",
-    "three": "0.115.0"
+    "three": "0.115.0",
+    "@react-pdf/renderer": "^1.6.10"
   },
   "devDependencies": {
     "@babel/core": "7.11.0",
@@ -38,7 +39,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "lint": "prettier --write \"**/*.{js,jsx, ts, tsx, json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
